@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e235d20-7ed0-468f-8e1a-7e0259fc68ab" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lab1/Templates/about.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lab1/Templates/landing.html" />
-      <change type="DELETED" beforePath="C:\Users\Maistho\PycharmProjects\LabsTesting\Lab1\Templates\start.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lab1/Templates/base.html" afterPath="$PROJECT_DIR$/Lab1/Templates/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lab1/main.py" afterPath="$PROJECT_DIR$/Lab1/main.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lab1/style.css" afterPath="$PROJECT_DIR$/Lab1/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LabsTesting.iws" />
@@ -37,10 +32,10 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="main.py" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="main.py" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Lab1/main.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="14" column="9" selection-start="326" selection-end="326" vertical-scroll-proportion="0.4989518" vertical-offset="0" max-vertical-offset="510">
+                <state line="14" column="9" selection-start="326" selection-end="326" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
                   <folding>
                     <element signature="e#0#40#0" expanded="true" />
                   </folding>
@@ -57,10 +52,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="base.html" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Lab1/Templates/base.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="11" column="22" selection-start="285" selection-end="285" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="442">
+                <state line="10" column="31" selection-start="264" selection-end="264" vertical-scroll-proportion="0.37694013" vertical-offset="0" max-vertical-offset="527">
                   <folding />
                 </state>
               </provider>
@@ -114,9 +109,9 @@
         <option value="$PROJECT_DIR$/Lab1/Templates/template1.html" />
         <option value="$PROJECT_DIR$/Lab1/Templates/start.html" />
         <option value="$PROJECT_DIR$/Lab1/style.css" />
-        <option value="$PROJECT_DIR$/Lab1/Templates/base.html" />
         <option value="$PROJECT_DIR$/Lab1/Templates/about.html" />
         <option value="$PROJECT_DIR$/Lab1/main.py" />
+        <option value="$PROJECT_DIR$/Lab1/Templates/base.html" />
       </list>
     </option>
   </component>
@@ -487,7 +482,11 @@
       <created>1390216882190</created>
       <updated>1390216882190</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="some stuff">
+      <created>1390217568855</created>
+      <updated>1390217568855</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -526,7 +525,8 @@
     <MESSAGE value="Added basic template" />
     <MESSAGE value="Added line statements and line comments" />
     <MESSAGE value="added basic template extension" />
-    <option name="LAST_COMMIT_MESSAGE" value="added basic template extension" />
+    <MESSAGE value="some stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="some stuff" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -587,13 +587,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lab1/Templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="22" selection-start="285" selection-end="285" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="442">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Lab1/Templates/about.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="24" selection-start="112" selection-end="112" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="170">
@@ -603,10 +596,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Lab1/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="9" selection-start="326" selection-end="326" vertical-scroll-proportion="0.4989518" vertical-offset="0" max-vertical-offset="510">
+        <state line="14" column="9" selection-start="326" selection-end="326" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab1/Templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="31" selection-start="264" selection-end="264" vertical-scroll-proportion="0.37694013" vertical-offset="0" max-vertical-offset="527">
+          <folding />
         </state>
       </provider>
     </entry>
