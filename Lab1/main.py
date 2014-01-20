@@ -9,7 +9,11 @@ app.jinja_env.line_comment_prefix = "##"
 
 @app.route('/')
 def hello_world():
-    return render_template("template1.html", names=["Gustav", "Filip"])
+    return render_template("template1.html", title="Start page", names=["Gustav", "Filip"])
+
+@app.route('/<what>')
+def noname(what=None):
+    return open(what).read()
 
 
 if __name__ == '__main__':
