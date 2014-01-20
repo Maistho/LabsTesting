@@ -1,8 +1,12 @@
 {% extends "base.html" %}
 {% block title %}Landing page{% endblock %}
 {% block content %}
-    <div id="image">
+    <div class="image">
         <img src="http://i.imgur.com/9GrmygR.jpg" alt="plane landing" width="auto">
     </div>
     <p>This is the landing page</p>
+    <p>This project about different types of web-stuff. Here's an example of the python code serving this very website, right now:</p>
+    <div class="codebox">
+    <pre>{{ pythoncode | escape }}</pre>
+    </div>
 {% endblock %}

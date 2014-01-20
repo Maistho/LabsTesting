@@ -6,18 +6,15 @@
     {% endblock %}
 </head>
 <body>
-<header>
-    {% block header %}
-        <p>This is a header</p>
-    {% endblock %}
-</header>
 <div id="nav">
+    {% block nav %}
     <ul>
         <a href="/"><li>Home</li></a>
         <a href="about"><li>About</li></a>
     </ul>
+    {% endblock %}
 </div>
-<div id="main">
+<div id="content">
 {% block content %}
     <p>Default page</p>
 {% endblock %}
