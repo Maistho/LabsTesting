@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e235d20-7ed0-468f-8e1a-7e0259fc68ab" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lab1/Templates/base.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lab1/Templates/start.html" />
-      <change type="DELETED" beforePath="C:\Users\Maistho\PycharmProjects\LabsTesting\Lab1\Templates\template1.html" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lab1/Templates/about.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lab1/Templates/landing.html" />
+      <change type="DELETED" beforePath="C:\Users\Maistho\PycharmProjects\LabsTesting\Lab1\Templates\start.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lab1/Templates/base.html" afterPath="$PROJECT_DIR$/Lab1/Templates/base.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lab1/main.py" afterPath="$PROJECT_DIR$/Lab1/main.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lab1/style.css" afterPath="$PROJECT_DIR$/Lab1/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -20,7 +21,7 @@
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/LabsTesting$LabsTesting.coverage" NAME="LabsTesting Coverage Results" MODIFIED="1390208822321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/LabsTesting$main.coverage" NAME="main Coverage Results" MODIFIED="1390215969146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lab1" />
+    <SUITE FILE_PATH="coverage/LabsTesting$main.coverage" NAME="main Coverage Results" MODIFIED="1390217549983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lab1" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -36,10 +37,10 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="main.py" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="main.py" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Lab1/main.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="14" column="22" selection-start="362" selection-end="362" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
+                <state line="14" column="9" selection-start="326" selection-end="326" vertical-scroll-proportion="0.4989518" vertical-offset="0" max-vertical-offset="510">
                   <folding>
                     <element signature="e#0#40#0" expanded="true" />
                   </folding>
@@ -47,19 +48,28 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="base.html" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Lab1/Templates/base.html">
+          <file leaf-file-name="about.html" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Lab1/Templates/about.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="5" column="18" selection-start="185" selection-end="185" vertical-scroll-proportion="0.09572072" vertical-offset="0" max-vertical-offset="888">
+                <state line="3" column="24" selection-start="112" selection-end="112" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="170">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="start.html" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Lab1/Templates/start.html">
+          <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Lab1/Templates/base.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="3" column="12" selection-start="100" selection-end="100" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="170">
+                <state line="11" column="22" selection-start="285" selection-end="285" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="442">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="landing.html" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Lab1/Templates/landing.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="3" column="19" selection-start="109" selection-end="109" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="221">
                   <folding />
                 </state>
               </provider>
@@ -72,7 +82,7 @@
           <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Lab1/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="7" column="1" selection-start="97" selection-end="97" vertical-scroll-proportion="0.13019694" vertical-offset="0" max-vertical-offset="914">
+                <state line="8" column="18" selection-start="100" selection-end="100" vertical-scroll-proportion="0.2851153" vertical-offset="0" max-vertical-offset="477">
                   <folding />
                 </state>
               </provider>
@@ -102,10 +112,11 @@
         <option value="$PROJECT_DIR$/Lab1/template1.html" />
         <option value="$PROJECT_DIR$/Lab1/templates/template1.html" />
         <option value="$PROJECT_DIR$/Lab1/Templates/template1.html" />
-        <option value="$PROJECT_DIR$/Lab1/Templates/base.html" />
-        <option value="$PROJECT_DIR$/Lab1/main.py" />
         <option value="$PROJECT_DIR$/Lab1/Templates/start.html" />
         <option value="$PROJECT_DIR$/Lab1/style.css" />
+        <option value="$PROJECT_DIR$/Lab1/Templates/base.html" />
+        <option value="$PROJECT_DIR$/Lab1/Templates/about.html" />
+        <option value="$PROJECT_DIR$/Lab1/main.py" />
       </list>
     </option>
   </component>
@@ -223,6 +234,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Maistho\PycharmProjects\LabsTesting\Lab1\Templates" />
       <recent name="C:\Users\Maistho\PycharmProjects\LabsTesting\Lab1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -471,29 +483,33 @@
       <created>1390213639490</created>
       <updated>1390213639490</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added basic template extension">
+      <created>1390216882190</created>
+      <updated>1390216882190</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16435432" sideWeight="0.67127657" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16435432" sideWeight="0.5362473" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4638298" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.46375266" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -509,7 +525,8 @@
     <MESSAGE value="created main.py" />
     <MESSAGE value="Added basic template" />
     <MESSAGE value="Added line statements and line comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added line statements and line comments" />
+    <MESSAGE value="added basic template extension" />
+    <option name="LAST_COMMIT_MESSAGE" value="added basic template extension" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -556,33 +573,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lab1/main.py">
+    <entry file="file://$PROJECT_DIR$/Lab1/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="22" selection-start="362" selection-end="362" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab1/Templates/start.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="12" selection-start="100" selection-end="100" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="170">
+        <state line="8" column="18" selection-start="100" selection-end="100" vertical-scroll-proportion="0.2851153" vertical-offset="0" max-vertical-offset="477">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lab1/style.css">
+    <entry file="file://$PROJECT_DIR$/Lab1/Templates/landing.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="1" selection-start="97" selection-end="97" vertical-scroll-proportion="0.13019694" vertical-offset="0" max-vertical-offset="914">
+        <state line="3" column="19" selection-start="109" selection-end="109" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="221">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lab1/Templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="18" selection-start="185" selection-end="185" vertical-scroll-proportion="0.09572072" vertical-offset="0" max-vertical-offset="888">
+        <state line="11" column="22" selection-start="285" selection-end="285" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="442">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab1/Templates/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="24" selection-start="112" selection-end="112" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="170">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab1/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="9" selection-start="326" selection-end="326" vertical-scroll-proportion="0.4989518" vertical-offset="0" max-vertical-offset="510">
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

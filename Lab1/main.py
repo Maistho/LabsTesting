@@ -8,8 +8,12 @@ app.jinja_env.line_statement_prefix = '#'
 app.jinja_env.line_comment_prefix = "##"
 
 @app.route('/')
-def hello_world():
-    return render_template("start.html", title="Start page", names=["Gustav", "Filip"])
+def landing():
+    return render_template("landing.html", names=["Gustav", "Filip"])
+
+@app.route('/about')
+def about():
+    return render_template("about.html", names=["Gustav", "Filip"])
 
 @app.route('/<what>')
 def noname(what=None):
