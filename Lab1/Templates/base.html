@@ -1,0 +1,17 @@
+<html>
+<head>
+    {% block head %}
+        <title>{% block title %}Default page{% endblock %}</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    {% endblock %}
+</head>
+<body>
+<div id="main">
+{% block content %}
+    {% for name in names %}
+        <p>Hello {{ name }}</p>
+    {% endfor %}
+{% endblock %}
+</div>
+</body>
+</html>
