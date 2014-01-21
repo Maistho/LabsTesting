@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e235d20-7ed0-468f-8e1a-7e0259fc68ab" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lab1/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lab1/gustavskod.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lab1/templates/about.html" afterPath="$PROJECT_DIR$/Lab1/templates/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lab1/templates/base.html" afterPath="$PROJECT_DIR$/Lab1/templates/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lab1/templates/landing.html" afterPath="$PROJECT_DIR$/Lab1/templates/landing.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lab1/main.py" afterPath="$PROJECT_DIR$/Lab1/main.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lab1/style.css" afterPath="$PROJECT_DIR$/Lab1/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lab2/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lab2/templates/about.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lab2/templates/base.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lab2/gustavskod.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lab2/templates/landing.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lab2/main.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lab2/templates/register.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lab2/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LabsTesting.iws" />
@@ -21,8 +22,9 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/LabsTesting$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1390332457363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lab2" />
     <SUITE FILE_PATH="coverage/LabsTesting$LabsTesting.coverage" NAME="LabsTesting Coverage Results" MODIFIED="1390208822321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/LabsTesting$main.coverage" NAME="main Coverage Results" MODIFIED="1390237746799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lab1" />
+    <SUITE FILE_PATH="coverage/LabsTesting$main.coverage" NAME="main Coverage Results" MODIFIED="1390332436254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lab1" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -36,58 +38,61 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lab1/style.css">
+      <file leaf-file-name="main.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Lab2/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="23" selection-start="417" selection-end="417" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="986">
+            <state line="15" column="83" selection-start="464" selection-end="464" vertical-scroll-proportion="0.2609649" vertical-offset="0" max-vertical-offset="912">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lab1/main.py">
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lab2/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="73" selection-start="454" selection-end="454" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
-              <folding>
-                <element signature="e#0#47#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gustavskod.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Lab1/gustavskod.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="6" selection-start="1025" selection-end="1025" vertical-scroll-proportion="0.8924051" vertical-offset="206" max-vertical-offset="765">
+            <state line="55" column="16" selection-start="931" selection-end="931" vertical-scroll-proportion="0.0" vertical-offset="614" max-vertical-offset="1190">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lab1/templates/base.html">
+        <entry file="file://$PROJECT_DIR$/Lab2/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="6" selection-start="200" selection-end="200" vertical-scroll-proportion="-3.5" vertical-offset="28" max-vertical-offset="476">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="landing.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lab1/templates/landing.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="10" selection-start="384" selection-end="457" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="306">
+            <state line="13" column="42" selection-start="383" selection-end="383" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="493">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="about.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lab1/templates/about.html">
+        <entry file="file://$PROJECT_DIR$/Lab2/templates/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="591" selection-end="591" vertical-scroll-proportion="-12.0" vertical-offset="11" max-vertical-offset="476">
+            <state line="17" column="21" selection-start="548" selection-end="548" vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="476">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="landing.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lab2/templates/landing.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="24" selection-start="50" selection-end="50" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="306">
+              <folding>
+                <marker date="1390331889402" expanded="true" signature="107:202" placeholder="..." />
+                <marker date="1390331889402" expanded="true" signature="399:451" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lab2/templates/register.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="45" selection-start="1711" selection-end="1711" vertical-scroll-proportion="-13.076923" vertical-offset="102" max-vertical-offset="595">
+              <folding>
+                <element signature="e#1560#1586#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -110,21 +115,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/LabsTesting.py" />
-        <option value="$PROJECT_DIR$/Lab1/template1.html" />
-        <option value="$PROJECT_DIR$/Lab1/templates/template1.html" />
-        <option value="$PROJECT_DIR$/Lab1/Templates/template1.html" />
-        <option value="$PROJECT_DIR$/Lab1/Templates/start.html" />
         <option value="$PROJECT_DIR$/Lab1/Templates/about.html" />
         <option value="$PROJECT_DIR$/Lab1/Templates/base.html" />
         <option value="$PROJECT_DIR$/Lab1/script.js" />
-        <option value="$PROJECT_DIR$/Lab1/templates/base.html" />
         <option value="$PROJECT_DIR$/Lab1/templates/landing.html" />
         <option value="$PROJECT_DIR$/Lab1/style.css" />
         <option value="$PROJECT_DIR$/Lab1/templates/about.html" />
         <option value="$PROJECT_DIR$/Lab1/gustavskod.what" />
-        <option value="$PROJECT_DIR$/Lab1/main.py" />
         <option value="$PROJECT_DIR$/Lab1/gustavskod.rb" />
+        <option value="$PROJECT_DIR$/Lab1/templates/base.html" />
+        <option value="$PROJECT_DIR$/Lab1/main.py" />
+        <option value="$PROJECT_DIR$/Lab2/templates/base.html" />
+        <option value="$PROJECT_DIR$/Lab2/templates/landing.html" />
+        <option value="$PROJECT_DIR$/Lab2/templates/about.html" />
+        <option value="$PROJECT_DIR$/Lab2/style.css" />
+        <option value="$PROJECT_DIR$/Lab2/templates/register.html" />
+        <option value="$PROJECT_DIR$/Lab2/main.py" />
       </list>
     </option>
   </component>
@@ -199,7 +205,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Lab1" />
+              <option name="myItemId" value="Lab2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -213,11 +219,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Lab1" />
+              <option name="myItemId" value="Lab2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LabsTesting" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LabsTesting" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -228,13 +244,13 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="com.jetbrains.python.templateLanguages.TemplateLanguageModulesConfigurable" />
+    <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -243,6 +259,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Maistho\PycharmProjects\LabsTesting" />
       <recent name="C:\Users\Maistho\PycharmProjects\LabsTesting\Lab1\Templates" />
       <recent name="C:\Users\Maistho\PycharmProjects\LabsTesting\Lab1" />
     </key>
@@ -251,7 +268,7 @@
       <recent name="C:\Users\Maistho\PycharmProjects\LabsTesting\Lab1\templates" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.main (1)">
     <configuration default="false" name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -270,6 +287,25 @@
       <RunnerSettings RunnerId="PyDebugRunner" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lab2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="LabsTesting" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lab2/main.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
@@ -357,9 +393,6 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
-      <method />
-    </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -381,6 +414,9 @@
       <option name="PUREUNITTEST" value="true" />
       <option name="PARAMS" value="" />
       <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -442,13 +478,15 @@
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Python.LabsTesting" />
       <item index="1" class="java.lang.String" itemvalue="Python.main" />
+      <item index="2" class="java.lang.String" itemvalue="Python.main (1)" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Python.main" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Python.main (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -512,7 +550,11 @@
       <created>1390232258967</created>
       <updated>1390232258967</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="added header">
+      <created>1390244403228</created>
+      <updated>1390244403228</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -525,11 +567,11 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16595517" sideWeight="0.53304905" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16755603" sideWeight="0.53304905" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.46695095" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46695095" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -561,26 +603,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Lab1/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="9" selection-start="326" selection-end="326" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab1/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="18" selection-start="100" selection-end="100" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="340">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab1/main.py">
-      <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="21" selection-start="343" selection-end="343" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="442">
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -594,61 +618,102 @@
     <entry file="file://$PROJECT_DIR$/Lab1/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="0" selection-start="111" selection-end="111" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="306">
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lab1/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="25" selection-start="109" selection-end="109" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="306">
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab1/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="6" selection-start="200" selection-end="200" vertical-scroll-proportion="-3.5" vertical-offset="28" max-vertical-offset="476">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lab1/templates/landing.html">
+    <entry file="file://$PROJECT_DIR$/Lab1/gustavskod.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="10" selection-start="384" selection-end="457" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="306">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab1/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="23" selection-start="417" selection-end="417" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="986">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab1/templates/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="591" selection-end="591" vertical-scroll-proportion="-12.0" vertical-offset="11" max-vertical-offset="476">
+        <state line="37" column="6" selection-start="1025" selection-end="1025" vertical-scroll-proportion="0.6881838" vertical-offset="0" max-vertical-offset="914">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lab1/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="73" selection-start="454" selection-end="454" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+        <state line="15" column="83" selection-start="464" selection-end="464" vertical-scroll-proportion="0.2603939" vertical-offset="0" max-vertical-offset="914">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab1/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="23" selection-start="417" selection-end="417" vertical-scroll-proportion="0.29321662" vertical-offset="72" max-vertical-offset="986">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab1/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="9" selection-start="393" selection-end="393" vertical-scroll-proportion="0.268018" vertical-offset="0" max-vertical-offset="888">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab1/templates/landing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="10" selection-start="384" selection-end="457" vertical-scroll-proportion="0.19144145" vertical-offset="0" max-vertical-offset="888">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab1/templates/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="591" selection-end="591" vertical-scroll-proportion="0.36373875" vertical-offset="0" max-vertical-offset="888">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab2/templates/landing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="24" selection-start="50" selection-end="50" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="306">
           <folding>
-            <element signature="e#0#47#0" expanded="true" />
+            <marker date="1390331889402" expanded="true" signature="107:202" placeholder="..." />
+            <marker date="1390331889402" expanded="true" signature="399:451" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lab1/gustavskod.rb">
+    <entry file="file://$PROJECT_DIR$/Lab2/templates/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="6" selection-start="1025" selection-end="1025" vertical-scroll-proportion="0.8924051" vertical-offset="206" max-vertical-offset="765">
+        <state line="17" column="21" selection-start="548" selection-end="548" vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="476">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab2/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="42" selection-start="383" selection-end="383" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="493">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab2/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="16" selection-start="931" selection-end="931" vertical-scroll-proportion="0.0" vertical-offset="614" max-vertical-offset="1190">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab2/templates/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="45" selection-start="1711" selection-end="1711" vertical-scroll-proportion="-13.076923" vertical-offset="102" max-vertical-offset="595">
+          <folding>
+            <element signature="e#1560#1586#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab2/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="83" selection-start="464" selection-end="464" vertical-scroll-proportion="0.2609649" vertical-offset="0" max-vertical-offset="912">
           <folding />
         </state>
       </provider>
