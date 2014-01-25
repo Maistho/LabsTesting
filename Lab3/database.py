@@ -1,6 +1,4 @@
 import sqlite3
-
-
 class Database:
     def __init__(self):
         self.conn = sqlite3.connect('users.db')
@@ -9,12 +7,12 @@ class Database:
     def __del__(self):
         self.conn.close()
 
-    def create_user(self, form_data):
+    def create_user(self, name, surname, email, country, city, friend=False, google=False, facebook=False, twitter=False, search_engine=False, othertext=None):
         cmd = "insert into users values (?,?,?,?,?,?,?)"
         curs = self.conn.cursor()
 
         try:
-            curs.execute(cmd, (form_data.name, form_data.surname, form_data.email, form_data.country, form_data.city, form_data.referrer, form_data.othertext))
+            curs.execute(cmd, (name, surname, email, country, city, 1, othertext))
         except sqlite3.IntegrityError:
             # Return error
             pass

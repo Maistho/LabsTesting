@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block title %}About us{% endblock %}
+{% block content %}
+
+    <div class="box">
+        <h3>About Gustav:</h3>
+
+        <p>Gustav is a crazy person living in Skäggetorp. Sometimes he writes code. Sometimes the code looks elegant.
+            Other times (most times) the code looks awful.</p>
+
+        <p>This is a sample of Gustavs code:</p>
+
+        <div class="codebox">
+            <pre>{{ gustavs_code | escape }}</pre>
+        </div>
+        <p>As you can see, it looks awful.</p>
+    </div>
+    <div class="box">
+        <h3>About Filip:</h3>
+
+        <p>As you can see, it looks awful.</p>
+    </div>
+{% endblock %}

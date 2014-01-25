@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block title %}Registration{% endblock %}
+{% block content %}
+
+    <div class="box">
+    <form title="Registrationform" id="registrationform">
+        <div id="regTexts">
+        <label for="regName">Name:</label><input type="text" title="Name" id="regName">
+        <label for="regSurname">Surname:</label><input type="text" title="Surname" id="regSurname">
+        <label for="regEmail">Email:</label><input type="email" title="Email" id="regEmail">
+        <label for="regCountry">Country:</label><input type="text" title="Country" id="regCountry">
+        <label for="regCity">City:</label><input type="text" title="City" id="regCity">
+            </div>
+        <p>Where did you first hear about this project?</p>
+        <div id="regChecks">
+        <input type="checkbox" title="Friend" id="regFriend"><label for="regFriend">Friend</label></br>
+        <input type="checkbox" title="Google" id="regGoogle"><label for="regGoogle">Google+</label></br>
+        <input type="checkbox" title="Facebook" id="regFacebook"><label for="regFacebook">Facebook</label></br>
+        <input type="checkbox" title="Twitter" id="regTwitter"><label for="regTwitter">Twitter</label></br>
+        <input type="checkbox" title="Search Engine" id="regSearch"><label for="regSearch">Search Engine</label></br>
+        <input type="checkbox" title="Other" id="regOther"
+onchange="document.getElementById('othertext').style.visibility = ((this.checked) ? 'visible' : 'hidden');"
+><label for="regOther">Other</label><input type="text" id="othertext" style="visibility: hidden"></br>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+    <p>{{ people }} joined the dark side.</p>
+
+    </div>
+{% endblock %}

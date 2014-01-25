@@ -1,0 +1,24 @@
+<html>
+<head>
+    {% block head %}
+        <title>{% block title %}Default page{% endblock %}</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    {% endblock %}
+</head>
+<body>
+<div id="nav">
+    {% block nav %}
+    <ul>
+        <a href="/"><li>Home</li></a>
+        <a href="register"><li>Register Interest</li></a>
+        <a href="about"><li>About</li></a>
+    </ul>
+    {% endblock %}
+</div>
+<div id="content">
+{% block content %}
+    <p>Default page</p>
+{% endblock %}
+</div>
+</body>
+</html>
