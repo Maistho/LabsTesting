@@ -23,10 +23,11 @@ def about():
 def register():
     my_form = RegistrationForm(request.form)
     if request.method == 'POST' and my_form.validate():
-        db.create_user(my_form.data())
-        return redirect('/success')
-    people = "1 person has"
-    return render_template("register.html", form=my_form, people=people)
+        db.create_user(my_form.data)
+        return redirect('/')
+    people = db.users()
+    people_str = str(people) + " person" + ("s have" if (people > 1) else " has")
+    return render_template("register.html", form=my_form, people=people_str)
 
 @app.route('/<what>')
 def default(what=None):
@@ -34,6 +35,11 @@ def default(what=None):
         return open(what).read()
     else:
         return abort(404)
+
+@app.route('/drop')
+def drop_table():
+    db.reset()
+    return "users dropped"
 
 if __name__ == '__main__':
     app.run()

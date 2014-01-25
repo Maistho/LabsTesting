@@ -1,26 +1,44 @@
 {% extends "base.html" %}
+    {% macro render_field(field) %}
+        {% if field.type == "TextField" %}
+            {{ field.label }}
+        {% endif %}
+            {{ field(**kwargs)|safe }}
+        {% if field.type == "BooleanField" %}
+            {{ field.label }}
+            </br>
+        {% endif %}
+
+    {% if field.errors %}
+        <span class="errors">
+            {% for error in field.errors %}
+                <li>{{ error }}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+
+    {% endmacro %}
 {% block title %}Registration{% endblock %}
 {% block content %}
 
     <div class="box">
-    <form title="Registrationform" id="registrationform">
+    <form action="register" method="post" title="Registrationform" id="registrationform">
         <div id="regTexts">
-        <label for="regName">Name:</label><input type="text" title="Name" id="regName">
-        <label for="regSurname">Surname:</label><input type="text" title="Surname" id="regSurname">
-        <label for="regEmail">Email:</label><input type="email" title="Email" id="regEmail">
-        <label for="regCountry">Country:</label><input type="text" title="Country" id="regCountry">
-        <label for="regCity">City:</label><input type="text" title="City" id="regCity">
-            </div>
+            {{ render_field(form.name) }}
+            {{ render_field(form.surname) }}
+            {{ render_field(form.email) }}
+            {{ render_field(form.country) }}
+            {{ render_field(form.city) }}
+        </div>
         <p>Where did you first hear about this project?</p>
         <div id="regChecks">
-        <input type="checkbox" title="Friend" id="regFriend"><label for="regFriend">Friend</label></br>
-        <input type="checkbox" title="Google" id="regGoogle"><label for="regGoogle">Google+</label></br>
-        <input type="checkbox" title="Facebook" id="regFacebook"><label for="regFacebook">Facebook</label></br>
-        <input type="checkbox" title="Twitter" id="regTwitter"><label for="regTwitter">Twitter</label></br>
-        <input type="checkbox" title="Search Engine" id="regSearch"><label for="regSearch">Search Engine</label></br>
-        <input type="checkbox" title="Other" id="regOther"
-onchange="document.getElementById('othertext').style.visibility = ((this.checked) ? 'visible' : 'hidden');"
-><label for="regOther">Other</label><input type="text" id="othertext" style="visibility: hidden"></br>
+            {{ render_field(form.refFriend) }}
+            {{ render_field(form.refGoogle) }}
+            {{ render_field(form.refFacebook) }}
+            {{ render_field(form.refTwitter) }}
+            {{ render_field(form.refSearch) }}
+            {{ render_field(form.refOther, onchange="document.getElementById('refOtherText').style.visibility = ((this.checked) ? 'visible' : 'hidden');") }}
+            {{ form.refOtherText(style="visibility: hidden;") }}
         </div>
         <button type="submit">Submit</button>
     </form>

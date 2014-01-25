@@ -2,21 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e235d20-7ed0-468f-8e1a-7e0259fc68ab" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lab3/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lab3/users.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lab3/templates/about.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lab3/templates/base.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lab3/database.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lab3/gustavskod.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lab3/templates/landing.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lab3/main.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lab2/my_forms.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lab3/templates/register.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lab3/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lab3/my_forms.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lab2/users.db" afterPath="$PROJECT_DIR$/Lab2/users.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lab3/users.db" afterPath="$PROJECT_DIR$/Lab3/users.db" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lab2/database.py" afterPath="$PROJECT_DIR$/Lab2/database.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lab3/database.py" afterPath="$PROJECT_DIR$/Lab3/database.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lab2/main.py" afterPath="$PROJECT_DIR$/Lab2/main.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lab2/templates/register.html" afterPath="$PROJECT_DIR$/Lab2/templates/register.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lab3/main.py" afterPath="$PROJECT_DIR$/Lab3/main.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lab2/my_forms.py" afterPath="$PROJECT_DIR$/Lab2/my_forms.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lab3/templates/register.html" afterPath="$PROJECT_DIR$/Lab3/templates/register.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LabsTesting.iws" />
@@ -29,10 +23,10 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/LabsTesting$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1390668816123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lab2" />
+    <SUITE FILE_PATH="coverage/LabsTesting$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1390672015858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lab2" />
     <SUITE FILE_PATH="coverage/LabsTesting$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1390664869922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lab3" />
     <SUITE FILE_PATH="coverage/LabsTesting$LabsTesting.coverage" NAME="LabsTesting Coverage Results" MODIFIED="1390208822321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/LabsTesting$database.coverage" NAME="database Coverage Results" MODIFIED="1390473565454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lab2" />
+    <SUITE FILE_PATH="coverage/LabsTesting$database.coverage" NAME="database Coverage Results" MODIFIED="1390670088978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lab2" />
     <SUITE FILE_PATH="coverage/LabsTesting$main.coverage" NAME="main Coverage Results" MODIFIED="1390332436254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lab1" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -52,43 +46,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lab2/main.py">
+      <file leaf-file-name="main.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Lab3/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="27" selection-start="866" selection-end="866" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
-              <folding>
-                <element signature="e#0#66#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="database.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lab2/database.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="38" selection-start="583" selection-end="583" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
-              <folding>
-                <marker date="1390666570611" expanded="true" signature="159:178" placeholder="select * fro..users..." />
-                <marker date="1390666570611" expanded="true" signature="295:312" placeholder="insert into ..." />
-                <marker date="1390666570611" expanded="true" signature="295:335" placeholder="insert into ..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="my_forms.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Lab2/my_forms.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="38" selection-start="616" selection-end="616" vertical-scroll-proportion="0.2545757" vertical-offset="0" max-vertical-offset="601">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="register.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lab2/templates/register.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="13" selection-start="348" selection-end="348" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="901">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
               <folding />
             </state>
           </provider>
@@ -125,10 +86,10 @@
         <option value="dbtable:/49bd07de/375c1e53-30f1-4f7b-9079-47086761ec06/..TMP_USERS" />
         <option value="db-console:/49bd07de/375c1e53-30f1-4f7b-9079-47086761ec06/" />
         <option value="$PROJECT_DIR$/Lab2/form.py" />
-        <option value="$PROJECT_DIR$/Lab2/database.py" />
-        <option value="$PROJECT_DIR$/Lab2/main.py" />
         <option value="$PROJECT_DIR$/Lab2/templates/register.html" />
         <option value="$PROJECT_DIR$/Lab2/my_forms.py" />
+        <option value="$PROJECT_DIR$/Lab2/database.py" />
+        <option value="$PROJECT_DIR$/Lab2/main.py" />
       </list>
     </option>
   </component>
@@ -217,44 +178,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LabsTesting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LabsTesting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lab2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LabsTesting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LabsTesting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lab2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="Database.TableEditor.Splitter" value="0.9" />
+    <property name="Database.TableEditor.Splitter" value="0.70749545" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="com.jetbrains.python.configuration.PythonSdkConfigurable" />
@@ -548,8 +477,8 @@
     <recent_temporary>
       <list size="4">
         <item index="0" class="java.lang.String" itemvalue="Python.main (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Python.main (2)" />
-        <item index="2" class="java.lang.String" itemvalue="Python.database" />
+        <item index="1" class="java.lang.String" itemvalue="Python.database" />
+        <item index="2" class="java.lang.String" itemvalue="Python.main (2)" />
         <item index="3" class="java.lang.String" itemvalue="Python.main" />
       </list>
     </recent_temporary>
@@ -626,19 +555,24 @@
       <created>1390473608417</created>
       <updated>1390473608417</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="stuff for lab 2&#10;ignore lab3">
+      <created>1390669122026</created>
+      <updated>1390669122026</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.209375" sideWeight="0.53381896" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20917822" sideWeight="0.6684435" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17022412" sideWeight="0.6684435" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17022412" sideWeight="0.6684435" order="0" side_tool="false" content_ui="combo" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -651,7 +585,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -672,7 +605,8 @@
     <MESSAGE value="added header" />
     <MESSAGE value="Labb2" />
     <MESSAGE value="some sql" />
-    <option name="LAST_COMMIT_MESSAGE" value="some sql" />
+    <MESSAGE value="stuff for lab 2&#10;ignore lab3" />
+    <option name="LAST_COMMIT_MESSAGE" value="stuff for lab 2&#10;ignore lab3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -730,6 +664,13 @@
         <state line="9" column="1" selection-start="182" selection-end="182" vertical-scroll-proportion="-5.275862" vertical-offset="0" max-vertical-offset="272" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Lab2/templates/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="13" selection-start="348" selection-end="348" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="901">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="dbDummy://dbtable:/49bd07de/375c1e53-30f1-4f7b-9079-47086761ec06/..USERS">
       <provider editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
@@ -740,43 +681,39 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lab3/main.py">
+    <entry file="file://$PROJECT_DIR$/Lab2/my_forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="912">
+        <state line="16" column="94" selection-start="960" selection-end="960" vertical-scroll-proportion="0.45257902" vertical-offset="0" max-vertical-offset="601">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lab2/database.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="38" selection-start="583" selection-end="583" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
+        <state line="40" column="12" selection-start="1057" selection-end="1057" vertical-scroll-proportion="0.6360544" vertical-offset="306" max-vertical-offset="986">
           <folding>
-            <marker date="1390666570611" expanded="true" signature="159:178" placeholder="select * fro..users..." />
-            <marker date="1390666570611" expanded="true" signature="295:312" placeholder="insert into ..." />
-            <marker date="1390666570611" expanded="true" signature="295:335" placeholder="insert into ..." />
+            <element signature="e#0#14#0" expanded="false" />
+            <marker date="1390672015856" expanded="true" signature="-1:-1" placeholder="select max(r..users..." />
+            <marker date="1390672015856" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..USERS..." />
+            <marker date="1390672015856" expanded="true" signature="-1:-1" placeholder="drop table i..." />
+            <marker date="1390672015856" expanded="true" signature="-1:-1" placeholder="insert into ..." />
+            <marker date="1390672015856" expanded="true" signature="-1:-1" placeholder="insert into ..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lab2/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="27" selection-start="866" selection-end="866" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
+        <state line="26" column="28" selection-start="829" selection-end="829" vertical-scroll-proportion="0.7354409" vertical-offset="0" max-vertical-offset="867">
           <folding>
-            <element signature="e#0#66#0" expanded="true" />
+            <element signature="e#0#66#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lab2/templates/register.html">
+    <entry file="file://$PROJECT_DIR$/Lab3/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="13" selection-start="348" selection-end="348" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="901">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab2/my_forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="38" selection-start="616" selection-end="616" vertical-scroll-proportion="0.2545757" vertical-offset="0" max-vertical-offset="601">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
           <folding />
         </state>
       </provider>
